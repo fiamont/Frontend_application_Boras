@@ -1,6 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Irish+Grover&display=swap");
+
 :root {
+  --default-font-family: "Inria Sans", sans-serif;
+  --heading-font-family: "Irish Grover", system-ui;
+  --dark-green: #194101;
+  --green: #2a6e02;
+  --light-green: #e9f8e1;
+  --light-color: #fffbf3;
+  --light-grey: #f5f5f5;
+  --orange: #ffaf30;
+  --beige-one: #f7ebd8;
+  --beige-two: #fdefd2;
+  --beige-three: #fff1db;
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: var(--default-font-family);
+  font-weight: 400;
+  color: var(--dark-green);
+  background-color: var(--light-color);
 }
