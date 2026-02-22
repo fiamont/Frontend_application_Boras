@@ -26,7 +26,7 @@ Features in this project...
 
 **APIs**
 
-- [CO₂ emissions datak](https://jek-hb.github.io/climate/co2emissions.json)
+- [CO₂ emissions data](https://jek-hb.github.io/climate/co2emissions.json)
 - [Global temperature data](https://jek-hb.github.io/climate/temperature.json)
 - [Glaciers data](https://jek-hb.github.io/climate/glaciers.json)
 - [Sea levels data](https://jek-hb.github.io/climate/sealevel.json)
