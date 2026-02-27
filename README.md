@@ -1,6 +1,6 @@
 # Klimatinfo
 
-This is a React + Vite project created as part of the course _Fördjupad frontendutveckling_ (Advanced Frontend Development) at the **University of Borås**.
+This is a React + Vite project developed from a Figma prototype as part of the course _Fördjupad frontendutveckling_ (Advanced Frontend Development) at the **University of Borås**.
 
 ## About the Project
 
