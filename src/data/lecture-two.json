@@ -9,5 +9,6 @@
   "image": {
     "url": "/images/global-temperature.png",
     "alt": "bild globala temperaturer"
-  }
+  },
+  "bgcolor": "#fdefd2"
 }
