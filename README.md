@@ -30,3 +30,7 @@ Features in this project...
 - [Global temperature data](https://jek-hb.github.io/climate/temperature.json)
 - [Glaciers data](https://jek-hb.github.io/climate/glaciers.json)
 - [Sea levels data](https://jek-hb.github.io/climate/sealevel.json)
+
+## Materials
+
+Images and text are taken from the provided project prototype, and some text was generated using ChatGPT.
