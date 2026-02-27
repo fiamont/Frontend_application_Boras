@@ -1,0 +1,12 @@
+{
+  "username": "Anna",
+  "email": "anna@mail.com",
+  "password": "password123",
+  "progress": "2",
+  "class-rank": "6",
+  "school-rank": "20",
+  "image": {
+    "url": "/images/profile-picture.png",
+    "alt": "Profile picture of Anna"
+  }
+}

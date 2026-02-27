@@ -2,6 +2,7 @@ import "./App.css";
 import lectureOne from "./data/lecture-one.json";
 import lectureTwo from "./data/lecture-two.json";
 import lectureThree from "./data/lecture-three.json";
+import mockUser from "./data/mock-user.json";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <p>{lectureTwo.introduction}</p>
       <h2>{lectureThree.title}</h2>
       <img src={lectureThree.image.url} alt={lectureThree.image.alt} />
+      <h2>{`Välkommen tillbaka ${mockUser.username}!`}</h2>
     </>
   );
 }
