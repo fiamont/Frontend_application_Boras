@@ -31,3 +31,7 @@ body {
   color: var(--dark-green);
   background-color: var(--light-color);
 }
+
+h1 {
+  font-family: var(--heading-font-family);
+}
