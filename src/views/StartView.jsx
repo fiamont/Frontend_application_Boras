@@ -1,10 +1,10 @@
-import mockUser from "../data/mock-user.json";
 import StartIntro from "../components/StartIntro";
+import ProfileSummary from "../components/ProfileSummary";
 
 function StartView() {
   return (
-    <div className="mx-4">
-      <h2>{`Välkommen tillbaka ${mockUser.username}!`}</h2>
+    <div className="d-flex flex-column gap-5 mx-4">
+      <ProfileSummary />
       <StartIntro />
     </div>
   );

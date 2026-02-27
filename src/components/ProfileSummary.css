@@ -1,0 +1,8 @@
+.profile-summary-container {
+  background-color: var(--light-green);
+}
+
+.profile-image {
+  border: 2px var(--dark-green) solid;
+  width: 180px;
+}
