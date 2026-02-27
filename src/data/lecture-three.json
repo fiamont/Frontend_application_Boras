@@ -1,14 +1,13 @@
 {
   "title": "Glaciärstorlekar",
   "introduction": "Jordens glaciärer påverkas i stor grad av jordens globala temperaturer. Under de senaste åren har glaciärernas storlekar minskat, och havsnivåer ökat.",
-  "text": [
-    {
-      "section": [
-        "Glaciärer är stora massor av is som bildas när snö faller och packas ihop under lång tid. De finns bland annat i bergsområden och i polarområden som Arktis och Antarktis. Jordens glaciärer påverkas i stor grad av den globala temperaturen. När klimatet blir varmare smälter mer is än vad som hinner bildas genom ny snö. Under de senaste årtiondena har många av världens glaciärer minskat i både tjocklek och utbredning.",
-        "När glaciärer krymper påverkar det både naturen och människor. Smältande glaciärer bidrar till att havsnivån stiger, eftersom smältvattnet rinner ut i haven. Glaciärer som når havet kan också kalva, vilket betyder att stora isblock bryts loss från glaciärens kant och blir till isberg. Kalvning är en naturlig process, men när temperaturen stiger kan den ske oftare och i större omfattning. I vissa delar av världen är människor dessutom beroende av smältvatten från glaciärer som dricksvatten och för jordbruk.",
-        "Forskare mäter förändringar i glaciärstorlek genom fältstudier, flygmätningar och satellitbilder. Resultaten visar att glaciärer över hela världen har dragit sig tillbaka sedan slutet av 1800-talet, i takt med att den globala temperaturen har stigit. Minskningen av glaciärer är ett av de tydligaste tecknen på pågående klimatförändringar, och utvecklingen hänger nära samman med den ökade mängden växthusgaser i atmosfären."
-      ]
-    }
+  "sections": [
+    "Glaciärer är stora massor av is som bildas när snö faller och packas ihop under lång tid. De finns bland annat i bergsområden och i polarområden som Arktis och Antarktis. Jordens glaciärer påverkas i stor grad av den globala temperaturen. När klimatet blir varmare smälter mer is än vad som hinner bildas genom ny snö. Under de senaste årtiondena har många av världens glaciärer minskat i både tjocklek och utbredning.",
+    "När glaciärer krymper påverkar det både naturen och människor. Smältande glaciärer bidrar till att havsnivån stiger, eftersom smältvattnet rinner ut i haven. Glaciärer som når havet kan också kalva, vilket betyder att stora isblock bryts loss från glaciärens kant och blir till isberg. Kalvning är en naturlig process, men när temperaturen stiger kan den ske oftare och i större omfattning. I vissa delar av världen är människor dessutom beroende av smältvatten från glaciärer som dricksvatten och för jordbruk.",
+    "Forskare mäter förändringar i glaciärstorlek genom fältstudier, flygmätningar och satellitbilder. Resultaten visar att glaciärer över hela världen har dragit sig tillbaka sedan slutet av 1800-talet, i takt med att den globala temperaturen har stigit. Minskningen av glaciärer är ett av de tydligaste tecknen på pågående klimatförändringar, och utvecklingen hänger nära samman med den ökade mängden växthusgaser i atmosfären."
   ],
-  "image": "bild på glaciärer"
+  "image": {
+    "url": "/images/glacier-size.png",
+    "alt": "bild på glaciärer"
+  }
 }

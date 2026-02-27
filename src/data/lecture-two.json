@@ -1,14 +1,13 @@
 {
   "title": "Globala temperaturer",
   "introduction": "Vi lever på ett sätt som påverkar jordens temperatur. Den globala temperaturen har ökat under många år, delvis på grund av våra utsläpp.",
-  "text": [
-    {
-      "section": [
-        "Den globala temperaturen är ett mått på hur varm jorden är i genomsnitt vid markytan och i haven. Forskare har mätt temperaturen systematiskt sedan slutet av 1800-talet, och resultaten visar att jorden har blivit varmare. Denna ökning kallas ofta för global uppvärmning och är en del av de större klimatförändringarna. Jordens medeltemperatur har stigit med ungefär 1 °C sedan slutet av 1800-talet. För att räkna ut den globala temperaturen samlar forskare in data från väderstationer, fartyg, bojar och satelliter och sammanställer dem till ett globalt medelvärde.",
-        "När jorden blir varmare påverkas både klimatet och naturen. En högre global temperatur kan leda till att glaciärer och havsis smälter, att havsnivån stiger och att extremväder som värmeböljor och kraftiga regn blir vanligare. Temperaturökningen påverkar också ekosystem, djurarter och människors livsvillkor. I vissa områden kan det bli svårare att odla mat, medan andra områden kan drabbas av torka eller översvämningar. Förändringarna sker inte jämnt över hela jorden, utan vissa regioner värms upp snabbare än andra.",
-        "Den främsta orsaken till att den globala temperaturen stiger är den förstärkta växthuseffekten. När vi människor släpper ut stora mängder växthusgaser, särskilt koldioxid, stannar mer värme kvar i atmosfären. Växthusgaserna fungerar ungefär som en filt runt jorden som gör att mer av solens värme hålls kvar. Sedan industrialiseringen har halterna av koldioxid i atmosfären ökat kraftigt, främst på grund av förbränning av fossila bränslen och avskogning. Forskare använder både historiska mätningar och klimatmodeller för att förstå hur temperaturen har förändrats och hur den kan utvecklas i framtiden."
-      ]
-    }
+  "sections": [
+    "Den globala temperaturen är ett mått på hur varm jorden är i genomsnitt vid markytan och i haven. Forskare har mätt temperaturen systematiskt sedan slutet av 1800-talet, och resultaten visar att jorden har blivit varmare. Denna ökning kallas ofta för global uppvärmning och är en del av de större klimatförändringarna. Jordens medeltemperatur har stigit med ungefär 1 °C sedan slutet av 1800-talet. För att räkna ut den globala temperaturen samlar forskare in data från väderstationer, fartyg, bojar och satelliter och sammanställer dem till ett globalt medelvärde.",
+    "När jorden blir varmare påverkas både klimatet och naturen. En högre global temperatur kan leda till att glaciärer och havsis smälter, att havsnivån stiger och att extremväder som värmeböljor och kraftiga regn blir vanligare. Temperaturökningen påverkar också ekosystem, djurarter och människors livsvillkor. I vissa områden kan det bli svårare att odla mat, medan andra områden kan drabbas av torka eller översvämningar. Förändringarna sker inte jämnt över hela jorden, utan vissa regioner värms upp snabbare än andra.",
+    "Den främsta orsaken till att den globala temperaturen stiger är den förstärkta växthuseffekten. När vi människor släpper ut stora mängder växthusgaser, särskilt koldioxid, stannar mer värme kvar i atmosfären. Växthusgaserna fungerar ungefär som en filt runt jorden som gör att mer av solens värme hålls kvar. Sedan industrialiseringen har halterna av koldioxid i atmosfären ökat kraftigt, främst på grund av förbränning av fossila bränslen och avskogning. Forskare använder både historiska mätningar och klimatmodeller för att förstå hur temperaturen har förändrats och hur den kan utvecklas i framtiden."
   ],
-  "image": "bild globala temperaturer"
+  "image": {
+    "url": "/images/global-temperature.png",
+    "alt": "bild globala temperaturer"
+  }
 }
