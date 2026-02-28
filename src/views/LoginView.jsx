@@ -1,5 +1,9 @@
 function LoginView() {
-  return <div>Logga in</div>;
+  return (
+    <div className="d-flex justify-content-center align-items-center login-view">
+      <div>Logga in rutan</div>
+    </div>
+  );
 }
 
 export default LoginView;

@@ -3,6 +3,11 @@
   padding: 0;
 }
 
+.login-view {
+  background-color: var(--dark-green);
+  color: var(--light-color);
+}
+
 .user-ranking {
   background-color: var(--beige-one);
 }
