@@ -2,3 +2,7 @@
   margin: 0;
   padding: 0;
 }
+
+.user-ranking {
+  background-color: var(--beige-one);
+}
