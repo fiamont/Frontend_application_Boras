@@ -10,7 +10,7 @@ function UserInfo({ data }) {
       />
       <div className="text-center text-lg-start">
         <h2>{`Välkommen tillbaka ${data.username}!`}</h2>
-        <p className="fs-5 m-0">
+        <p className="fs-5 m-lg-0">
           Läs igenom en ny lektion för att nå dagens mål!
         </p>
       </div>
