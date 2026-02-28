@@ -9,5 +9,6 @@
   "image": {
     "url": "/images/carbon-dioxide.png",
     "alt": "bild koldioxidutsläpp"
-  }
+  },
+  "bgcolor": "#f7ebd8"
 }

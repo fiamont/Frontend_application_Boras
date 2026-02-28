@@ -9,5 +9,6 @@
   "image": {
     "url": "/images/glacier-size.png",
     "alt": "bild på glaciärer"
-  }
+  },
+  "bgcolor": "#fff1db"
 }

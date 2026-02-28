@@ -1,0 +1,17 @@
+.profile-summary-container {
+  background-color: var(--light-green);
+}
+
+.profile-image {
+  border: 2px var(--dark-green) solid;
+  width: 180px;
+}
+
+.progress {
+  border: 1px var(--dark-green) solid;
+  height: 1.2rem;
+  background-color: var(--beige-two);
+}
+.progress-bar {
+  background-color: var(--dark-green);
+}
