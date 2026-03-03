@@ -24,3 +24,17 @@
 .user-ranking {
   background-color: var(--beige-one);
 }
+
+.navigation {
+  background-color: var(--dark-green);
+  color: var(--light-color);
+}
+
+.navigation-link {
+  color: var(--light-color);
+  text-decoration: none;
+}
+
+.navigation-link:hover {
+  text-decoration: underline;
+}
