@@ -1,11 +1,12 @@
 import { IoIosArrowRoundForward } from "react-icons/io";
+import { Link } from "react-router-dom";
 
 function Logout() {
   return (
     <div className="text-center fs-3">
-      <a href="#">
+      <Link to="/">
         Logga ut <IoIosArrowRoundForward />
-      </a>
+      </Link>
     </div>
   );
 }

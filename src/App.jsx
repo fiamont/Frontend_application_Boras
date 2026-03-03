@@ -2,14 +2,20 @@ import "./App.css";
 import StartView from "./views/StartView";
 import ProfileView from "./views/ProfileView";
 import LoginView from "./views/LoginView";
+import LectureView from "./views/LectureView";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <>
-      <h1>Klimatinfo (navigationen)</h1>
-      {/* <StartView /> */}
-      {/* <ProfileView /> */}
-      <LoginView />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<LoginView />} />
+          <Route path="/start" element={<StartView />} />
+          <Route path="/profil" element={<ProfileView />} />
+          <Route path="/lektion" element={<LectureView />} />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
