@@ -1,6 +1,6 @@
-import doneCarbon from "../../public/images/done-carbon-dioxide.png";
-import doneTemperature from "../../public/images/done-global-temperature.png";
-import beginGlacier from "../../public/images/begin-glacier.png";
+import doneCarbon from "../assets/done-carbon-dioxide.png";
+import doneTemperature from "../assets/done-global-temperature.png";
+import beginGlacier from "../assets/begin-glacier.png";
 
 function UserLectures() {
   return (
