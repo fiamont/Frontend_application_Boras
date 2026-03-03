@@ -3,6 +3,24 @@
   padding: 0;
 }
 
+.login-view {
+  background-color: var(--dark-green);
+}
+
+.login-form {
+  background-color: var(--light-color);
+}
+
+.login-btn {
+  background-color: var(--dark-green);
+  color: var(--light-color);
+}
+
+.form-control:focus {
+  border: 2px var(--dark-green) solid !important;
+  box-shadow: none;
+}
+
 .user-ranking {
   background-color: var(--beige-one);
 }

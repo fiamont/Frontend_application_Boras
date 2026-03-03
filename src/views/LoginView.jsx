@@ -1,5 +1,11 @@
+import LoginForm from "../components/LoginForm";
+
 function LoginView() {
-  return <div>Logga in</div>;
+  return (
+    <div className="d-flex justify-content-center align-items-center login-view vh-100">
+      <LoginForm />
+    </div>
+  );
 }
 
 export default LoginView;
