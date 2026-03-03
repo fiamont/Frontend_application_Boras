@@ -2,12 +2,14 @@ import FloatingLabel from "react-bootstrap/FloatingLabel";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
 import mockUser from "../data/mock-user.json";
 
 function LoginForm() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
+  const navigate = useNavigate();
 
   function onChangeUsername(event) {
     setUsername(event.target.value);
@@ -21,7 +23,7 @@ function LoginForm() {
     event.preventDefault(); //gör så det inte försvinner på en gång (laddas om)
     if (username === mockUser.username && password === mockUser.password) {
       console.log("Woho! Lyckades!");
-      //window.location.href = "#"; //använda rätt redirect (routing?)
+      navigate("/start");
     } else {
       setError("Användarnamn eller lösenord fel.");
     }
