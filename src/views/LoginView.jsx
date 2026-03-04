@@ -3,9 +3,11 @@ import Navigation from "../components/Navigation";
 
 function LoginView() {
   return (
-    <div className="d-flex justify-content-center align-items-center login-view vh-100">
+    <div className="d-flex flex-column login-view vh-100">
       <Navigation isLoginPage={true} />
-      <LoginForm />
+      <div className="d-flex justify-content-center align-items-center vh-100">
+        <LoginForm />
+      </div>
     </div>
   );
 }

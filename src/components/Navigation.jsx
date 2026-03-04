@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 function Navigation(props) {
   return (
     <nav
-      className={`${props.isLoginPage ? "navigation-login" : "navigation-default"} navigation p-4 d-flex gap-2 align-items-center`}
+      className={`${props.isLoginPage ? "navigation-login" : "navigation-default"} navigation p-2 d-flex gap-2 align-items-center`}
     >
       <Link className="navigation-link" to="/start">
         <h1>Klimatinfo</h1>
