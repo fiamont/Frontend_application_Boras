@@ -1,20 +1,16 @@
 import { Link } from "react-router-dom";
 
-function Navigation() {
+function Navigation(props) {
   return (
-    <nav className="navigation p-4 d-flex gap-2 align-items-center">
-      <Link className="navigation-link" to={"/start"}>
+    <nav
+      className={`${props.isLoginPage ? "navigation-login" : "navigation-default"} navigation p-4 d-flex gap-2 align-items-center`}
+    >
+      <Link className="navigation-link" to="/start">
         <h1>Klimatinfo</h1>
       </Link>
-      <Link className="navigation-link" to={"/start"}>
-        Start
-      </Link>
-      <Link className="navigation-link" to={"/lektion"}>
-        Utveckling
-      </Link>
-      <Link className="navigation-link" to={"/profil"}>
-        Profil
-      </Link>
+      <Link to="/start">Start</Link>
+      <Link to="/lektion">Utveckling</Link>
+      <Link to="/profil">{props.isLoginPage ? "Logga in" : "Profil"}</Link>
     </nav>
   );
 }
