@@ -1,0 +1,72 @@
+.navigation-default {
+  background-color: var(--dark-green);
+  color: var(--light-color);
+}
+
+.navigation-default a {
+  color: var(--light-color);
+  text-decoration: none;
+}
+
+.navigation-default a:hover {
+  text-decoration: underline;
+}
+
+.navigation-default .dropdown-menu {
+  background-color: var(--dark-green);
+  border: none;
+}
+
+.navigation-default .dropdown-toggle.show,
+.navigation-default .dropdown-toggle {
+  color: var(--light-color);
+}
+
+.navigation-default .dropdown-item {
+  color: var(--light-color);
+}
+
+.navigation-default .dropdown-item:hover {
+  background-color: #0d310d;
+  color: var(--light-color);
+}
+
+.navigation-login {
+  background-color: var(--light-grey);
+  color: var(--dark-green);
+}
+
+.navigation-login a {
+  color: var(--dark-green);
+  text-decoration: none;
+}
+
+.navigation-login .dropdown-toggle.show,
+.navigation-login .dropdown-toggle {
+  color: var(--dark-green);
+}
+
+.navigation-login .dropdown-menu {
+  background-color: var(--light-grey);
+  border: none;
+}
+
+.navigation-login .dropdown-item {
+  color: var(--dark-green);
+  margin-top: 0.5rem;
+}
+
+.navigation-login .dropdown-item:hover {
+  background-color: #e6e6e6;
+}
+
+.navigation-default .navbar-collapse a,
+.navigation-login .navbar-collapse a {
+  padding: 0;
+  margin: 0;
+}
+
+.navigation-default .dropdown-menu,
+.navigation-login .dropdown-menu {
+  padding: 0.5rem;
+}
