@@ -11,9 +11,14 @@
   background-color: var(--light-color);
 }
 
-.login-btn {
+.login-btn,
+.lecture-btn {
   background-color: var(--dark-green);
   color: var(--light-color);
+}
+
+.lecture-btn {
+  text-decoration: none;
 }
 
 .form-control:focus {

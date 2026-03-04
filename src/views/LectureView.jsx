@@ -1,10 +1,14 @@
 import Navigation from "../components/Navigation";
+import lectureOne from "../data/lecture-one.json";
+import lectureTwo from "../data/lecture-two.json";
+import lectureThree from "../data/lecture-three.json";
+import Lecture from "../components/Lecture";
 
 function LectureView() {
   return (
     <div>
       <Navigation isLoginPage={false} />
-      <h2>Lektionsvy</h2>
+      <Lecture heading={lectureOne.title} />
     </div>
   );
 }
