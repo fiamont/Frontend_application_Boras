@@ -8,7 +8,7 @@ function LectureView() {
   return (
     <div>
       <Navigation isLoginPage={false} />
-      <Lecture heading={lectureOne.title} />
+      <Lecture lectureData={lectureOne} />
     </div>
   );
 }
