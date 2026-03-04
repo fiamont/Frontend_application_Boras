@@ -1,9 +1,10 @@
 import "./Navigation.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import { Navbar, Container, Nav } from "react-bootstrap";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { RxCross1 } from "react-icons/rx";
+import MenuPart from "./MenuPart";
 
 function Navigation(props) {
   const [expanded, setExpanded] = useState(false);
@@ -32,17 +33,7 @@ function Navigation(props) {
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto gap-4">
             <Link to="/start">Start</Link>
-            <NavDropdown title="Utveckling" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/lektion">
-                Koldioxidutsläpp
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/lektion">
-                Globala temperaturer
-              </NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/lektion">
-                Glaciärstorlekar
-              </NavDropdown.Item>
-            </NavDropdown>
+            <MenuPart />
             <Link to="/profil">
               {props.isLoginPage ? "Logga in" : "Profil"}
             </Link>
