@@ -1,5 +1,6 @@
 {
   "title": "Glaciärstorlekar",
+  "link": "/lektion/glaciarstorlekar",
   "introduction": "Jordens glaciärer påverkas i stor grad av jordens globala temperaturer. Under de senaste åren har glaciärernas storlekar minskat, och havsnivåer ökat.",
   "sections": [
     "Glaciärer är stora massor av is som bildas när snö faller och packas ihop under lång tid. De finns bland annat i bergsområden och i polarområden som Arktis och Antarktis. Jordens glaciärer påverkas i stor grad av den globala temperaturen. När klimatet blir varmare smälter mer is än vad som hinner bildas genom ny snö. Under de senaste årtiondena har många av världens glaciärer minskat i både tjocklek och utbredning.",
@@ -10,5 +11,9 @@
     "url": "/images/glacier-size.png",
     "alt": "bild på glaciärer"
   },
-  "bgcolor": "#fff1db"
+  "bgcolor": "#fff1db",
+  "chart": {
+    "uri": "https://jek-hb.github.io/climate/glaciers.json",
+    "description": "Glaciärers minskning i meter sedan 1945"
+  }
 }
