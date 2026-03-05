@@ -1,4 +1,5 @@
 import LectureButton from "./LectureButton";
+import InteractiveChart from "./InteractiveChart";
 
 function Lecture({ lectureData }) {
   return (
@@ -15,7 +16,7 @@ function Lecture({ lectureData }) {
           <p>{lectureData.sections[1]}</p>
         </div>
         <div className="lecture-second-part p-4">
-          <p>DIAGRAMKOMPONENTEN</p>
+          <InteractiveChart />
           <p>{lectureData.sections[2]}</p>
         </div>
       </div>
