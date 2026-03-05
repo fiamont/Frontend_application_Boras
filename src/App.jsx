@@ -13,7 +13,7 @@ function App() {
           <Route path="/" element={<LoginView />} />
           <Route path="/start" element={<StartView />} />
           <Route path="/profil" element={<ProfileView />} />
-          <Route path="/lektion" element={<LectureView />} />
+          <Route path="/lektion/:id" element={<LectureView />} />
         </Routes>
       </BrowserRouter>
     </>
