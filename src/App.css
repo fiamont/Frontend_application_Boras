@@ -33,3 +33,13 @@
 .lecture-second-part {
   background-color: var(--light-green);
 }
+
+.chart-background {
+  background-color: #f3f9ef;
+}
+
+.chart-square {
+  height: 250px;
+  width: 250px;
+  background-color: #5daa29;
+}
