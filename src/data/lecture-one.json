@@ -1,5 +1,6 @@
 {
   "title": "Koldioxidutsläpp",
+  "link": "/lektion/koldioxidutslapp",
   "introduction": "Koldioxidutsläppen har ökat genom förbränning av fossila bränslen. Detta påverkar vår atmosfär och genom det även vårt klimat.",
   "sections": [
     "Koldioxidutsläpp kommer från saker vi människor gör, som att köra bil, flyga, använda elektricitet som produceras med fossila bränslen eller tillverka varor i fabriker. När vi bränner kol, olja och gas släpps koldioxid (CO₂) ut i luften. Det är en gas som inte är farlig i sig — vi andas ut den varje dag — men när det blir för mycket av den i atmosfären fungerar den som en filt runt jorden och gör planeten varmare",
@@ -10,5 +11,9 @@
     "url": "/images/carbon-dioxide.png",
     "alt": "bild koldioxidutsläpp"
   },
-  "bgcolor": "#f7ebd8"
+  "bgcolor": "#f7ebd8",
+  "chart": {
+    "uri": "https://jek-hb.github.io/climate/co2emissions.json",
+    "description": "Genomsnittligt koldioxidutsläpp genom åren"
+  }
 }

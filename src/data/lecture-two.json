@@ -1,5 +1,6 @@
 {
   "title": "Globala temperaturer",
+  "link": "/lektion/globalatemperaturer",
   "introduction": "Vi lever på ett sätt som påverkar jordens temperatur. Den globala temperaturen har ökat under många år, delvis på grund av våra utsläpp.",
   "sections": [
     "Den globala temperaturen är ett mått på hur varm jorden är i genomsnitt vid markytan och i haven. Forskare har mätt temperaturen systematiskt sedan slutet av 1800-talet, och resultaten visar att jorden har blivit varmare. Denna ökning kallas ofta för global uppvärmning och är en del av de större klimatförändringarna. Jordens medeltemperatur har stigit med ungefär 1 °C sedan slutet av 1800-talet. För att räkna ut den globala temperaturen samlar forskare in data från väderstationer, fartyg, bojar och satelliter och sammanställer dem till ett globalt medelvärde.",
@@ -10,5 +11,9 @@
     "url": "/images/global-temperature.png",
     "alt": "bild globala temperaturer"
   },
-  "bgcolor": "#fdefd2"
+  "bgcolor": "#fdefd2",
+  "chart": {
+    "uri": "https://jek-hb.github.io/climate/temperature.json",
+    "description": "Medelvärde på yttemperaturökning i grader Celsius"
+  }
 }

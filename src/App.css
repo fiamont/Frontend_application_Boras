@@ -11,9 +11,14 @@
   background-color: var(--light-color);
 }
 
-.login-btn {
+.login-btn,
+.lecture-btn {
   background-color: var(--dark-green);
   color: var(--light-color);
+}
+
+.lecture-btn {
+  text-decoration: none;
 }
 
 .form-control:focus {
@@ -23,4 +28,18 @@
 
 .user-ranking {
   background-color: var(--beige-one);
+}
+
+.lecture-second-part {
+  background-color: var(--light-green);
+}
+
+.chart-background {
+  background-color: #f3f9ef;
+}
+
+.chart-square {
+  height: 250px;
+  width: 250px;
+  background-color: #5daa29;
 }
