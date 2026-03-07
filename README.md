@@ -17,6 +17,8 @@ Features in this project...
 - React
 - React Bootstrap
 - Bootstrap
+- React Router
+- React Icons
 
 **Languages & Tools**
 
@@ -29,7 +31,6 @@ Features in this project...
 - [CO₂ emissions data](https://jek-hb.github.io/climate/co2emissions.json)
 - [Global temperature data](https://jek-hb.github.io/climate/temperature.json)
 - [Glaciers data](https://jek-hb.github.io/climate/glaciers.json)
-- [Sea levels data](https://jek-hb.github.io/climate/sealevel.json)
 
 ## Materials
 
