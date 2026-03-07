@@ -4,11 +4,13 @@ import ProfileView from "./views/ProfileView";
 import LoginView from "./views/LoginView";
 import LectureView from "./views/LectureView";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
   return (
     <>
       <BrowserRouter>
+        <ScrollToTop></ScrollToTop>
         <Routes>
           <Route path="/" element={<LoginView />} />
           <Route path="/start" element={<StartView />} />
