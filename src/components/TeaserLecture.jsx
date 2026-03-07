@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 // Får data (props) från parent-komponenten (måsvingar runt "data" --> destrukturering)
 function TeaserLecture({ data }) {
   return (
@@ -15,9 +16,9 @@ function TeaserLecture({ data }) {
 
         <p className="text-center fs-5">{data.introduction}</p>
       </div>
-      <a className="fs-5" href="#">
+      <Link className="fs-5" to={data.link}>
         Läs mer...
-      </a>
+      </Link>
     </div>
   );
 }
