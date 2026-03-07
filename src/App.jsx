@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <BrowserRouter>
-        <ScrollToTop></ScrollToTop>
+        <ScrollToTop />
         <Routes>
           <Route path="/" element={<LoginView />} />
           <Route path="/start" element={<StartView />} />
