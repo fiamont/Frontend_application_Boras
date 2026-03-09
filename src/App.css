@@ -33,3 +33,7 @@
 .lecture-second-part {
   background-color: var(--light-green);
 }
+
+.chart-background {
+  background-color: var(--light-color);
+}
