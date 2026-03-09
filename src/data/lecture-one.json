@@ -14,6 +14,9 @@
   "bgcolor": "#f7ebd8",
   "chart": {
     "uri": "https://jek-hb.github.io/climate/co2emissions.json",
-    "description": "Genomsnittligt koldioxidutsläpp genom åren"
+    "description": "Genomsnittligt koldioxidutsläpp genom åren",
+    "dataKeyX": "Year",
+    "dataKeyY": "Total",
+    "yName": "Miljoner ton kol"
   }
 }

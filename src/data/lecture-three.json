@@ -14,6 +14,9 @@
   "bgcolor": "#fff1db",
   "chart": {
     "uri": "https://jek-hb.github.io/climate/glaciers.json",
-    "description": "Glaciärers minskning i meter sedan 1945"
+    "description": "Glaciärers minskning i meter sedan 1945",
+    "dataKeyX": "Year",
+    "dataKeyY": "Mean cumulative mass balance",
+    "yName": "Meter"
   }
 }

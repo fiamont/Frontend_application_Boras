@@ -7,60 +7,25 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+import { useState, useEffect } from "react";
 
-// #region Sample data
-const data = [
-  {
-    name: "Page A",
-    uv: 4000,
-    pv: 2400,
-    amt: 2400,
-  },
-  {
-    name: "Page B",
-    uv: 3000,
-    pv: 1398,
-    amt: 2210,
-  },
-  {
-    name: "Page C",
-    uv: 2000,
-    pv: 9800,
-    amt: 2290,
-  },
-  {
-    name: "Page D",
-    uv: 2780,
-    pv: 3908,
-    amt: 2000,
-  },
-  {
-    name: "Page E",
-    uv: 1890,
-    pv: 4800,
-    amt: 2181,
-  },
-  {
-    name: "Page F",
-    uv: 2390,
-    pv: 3800,
-    amt: 2500,
-  },
-  {
-    name: "Page G",
-    uv: 3490,
-    pv: 4300,
-    amt: 2100,
-  },
-];
+function ResponsiveAreaChart({ lectureData }) {
+  const [apiData, setApiData] = useState([]);
 
-// #endregion
-const ResponsiveAreaChart = () => {
+  useEffect(() => {
+    async function fetchData() {
+      let response = await fetch(lectureData.chart.uri);
+      let data = await response.json();
+      setApiData(data);
+    }
+    fetchData();
+  }, []);
+
   return (
     <div className="chart-background" style={{ width: "100%", height: 300 }}>
       <ResponsiveContainer>
         <AreaChart
-          data={data}
+          data={apiData}
           margin={{
             top: 10,
             right: 30,
@@ -69,14 +34,20 @@ const ResponsiveAreaChart = () => {
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="name" />
+          <XAxis dataKey={lectureData.chart.dataKeyX} />
           <YAxis />
           <Tooltip />
-          <Area type="monotone" dataKey="uv" stroke="#194101" fill="#2a6e02" />
+          <Area
+            type="monotone"
+            dataKey={lectureData.chart.dataKeyY}
+            name={lectureData.chart.yName}
+            stroke="#194101"
+            fill="#2a6e02"
+          />
         </AreaChart>
       </ResponsiveContainer>
     </div>
   );
-};
+}
 
 export default ResponsiveAreaChart;
