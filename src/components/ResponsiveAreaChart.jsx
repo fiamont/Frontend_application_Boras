@@ -16,7 +16,13 @@ function ResponsiveAreaChart({ lectureData }) {
     async function fetchData() {
       let response = await fetch(lectureData.chart.uri);
       let data = await response.json();
-      setApiData(data);
+
+      if (lectureData.title === "Globala temperaturer") {
+        const reversedData = [...data].reverse(); // kopia + vänd ordningen
+        setApiData(reversedData);
+      } else {
+        setApiData(data);
+      }
     }
     fetchData();
   }, []);

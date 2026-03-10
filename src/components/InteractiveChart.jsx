@@ -1,4 +1,5 @@
 import ResponsiveAreaChart from "./ResponsiveAreaChart";
+import SelectMenu from "./SelectMenu";
 
 function InteractiveChart({ data }) {
   return (
@@ -8,8 +9,8 @@ function InteractiveChart({ data }) {
         <ResponsiveAreaChart lectureData={data} />
       </div>
       <div className="d-flex gap-3">
-        Select-knapparna (kommande komponent som interagerar med
-        ResponsivAreaChart)
+        <SelectMenu />
+        <SelectMenu />
       </div>
     </div>
   );
