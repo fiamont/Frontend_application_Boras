@@ -25,7 +25,7 @@ function ResponsiveAreaChart({ lectureData }) {
       }
     }
     fetchData();
-  }, []);
+  }, [lectureData]);
 
   return (
     <div className="chart-background" style={{ width: "100%", height: 300 }}>
