@@ -18,8 +18,11 @@ function ResponsiveAreaChart({ lectureData }) {
       let data = await response.json();
 
       if (lectureData.title === "Globala temperaturer") {
-        const reversedData = [...data].reverse(); // kopia + vänd ordningen
-        setApiData(reversedData);
+        const reversedData = [...data].reverse(); // kopiera + vänd ordningen
+        const onlyGISTEMPData = reversedData.filter(
+          (item) => item.Source === "GISTEMP",
+        ); //gör så bara objekten med source GISTEMP (yttempteratur) används
+        setApiData(onlyGISTEMPData);
       } else {
         setApiData(data);
       }
