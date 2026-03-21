@@ -50,8 +50,8 @@ function ResponsiveAreaChart({ lectureData }) {
             type="monotone"
             dataKey={lectureData.chart.dataKeyY}
             name={lectureData.chart.yName}
-            stroke="#194101"
-            fill="#2a6e02"
+            stroke="var(--dark-green)"
+            fill="var(--green)"
           />
         </AreaChart>
       </ResponsiveContainer>

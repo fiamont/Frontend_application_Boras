@@ -9,8 +9,8 @@ function InteractiveChart({ data }) {
         <ResponsiveAreaChart lectureData={data} />
       </div>
       <div className="d-flex gap-3">
-        <SelectMenu />
-        <SelectMenu />
+        <SelectMenu heading="Startår" lectureData={data} />
+        <SelectMenu heading="Slutår" lectureData={data} />
       </div>
     </div>
   );
