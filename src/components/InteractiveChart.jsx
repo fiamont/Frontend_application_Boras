@@ -4,6 +4,8 @@ import SelectMenu from "./SelectMenu";
 
 function InteractiveChart({ lectureJson }) {
   const [apiData, setApiData] = useState([]); //tom array
+  const [startYear, setStartYear] = useState(""); //tom variabel
+  const [endYear, setEndYear] = useState(""); //tom variabel
 
   useEffect(() => {
     async function fetchData() {
@@ -27,11 +29,21 @@ function InteractiveChart({ lectureJson }) {
     <div className="d-flex flex-column align-items-center gap-2 pb-4">
       <div className="d-flex flex-column container align-items-center">
         <h5 className="text-center pt-3">{lectureJson.chart.description}</h5>
-        <ResponsiveAreaChart json={lectureJson} apiData={apiData} />
+        <ResponsiveAreaChart json={lectureJson} chartData={apiData} />
       </div>
       <div className="d-flex gap-3">
-        <SelectMenu heading="Startår" lectureData={lectureJson} />
-        <SelectMenu heading="Slutår" lectureData={lectureJson} />
+        <SelectMenu
+          heading="Startår"
+          optionData={apiData}
+          selectedYear={startYear}
+          setSelectedYear={setStartYear}
+        />
+        <SelectMenu
+          heading="Slutår"
+          optionData={apiData}
+          selectedYear={endYear}
+          setSelectedYear={setEndYear}
+        />
       </div>
     </div>
   );

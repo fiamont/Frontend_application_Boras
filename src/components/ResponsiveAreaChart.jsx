@@ -8,12 +8,12 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-function ResponsiveAreaChart({ json, apiData }) {
+function ResponsiveAreaChart({ json, chartData }) {
   return (
     <div className="chart-background" style={{ width: "100%", height: 300 }}>
       <ResponsiveContainer>
         <AreaChart
-          data={apiData}
+          data={chartData}
           margin={{
             top: 10,
             right: 30,
