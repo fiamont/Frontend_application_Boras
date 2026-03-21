@@ -7,29 +7,8 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-import { useState, useEffect } from "react";
 
-function ResponsiveAreaChart({ lectureData }) {
-  const [apiData, setApiData] = useState([]);
-
-  useEffect(() => {
-    async function fetchData() {
-      let response = await fetch(lectureData.chart.uri);
-      let data = await response.json();
-
-      if (lectureData.title === "Globala temperaturer") {
-        const reversedData = [...data].reverse(); // kopiera + vänd ordningen
-        const onlyGISTEMPData = reversedData.filter(
-          (item) => item.Source === "GISTEMP",
-        ); //gör så bara objekten med source GISTEMP (yttempteratur) används
-        setApiData(onlyGISTEMPData);
-      } else {
-        setApiData(data);
-      }
-    }
-    fetchData();
-  }, [lectureData]);
-
+function ResponsiveAreaChart({ json, apiData }) {
   return (
     <div className="chart-background" style={{ width: "100%", height: 300 }}>
       <ResponsiveContainer>
@@ -43,13 +22,13 @@ function ResponsiveAreaChart({ lectureData }) {
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey={lectureData.chart.dataKeyX} />
+          <XAxis dataKey={json.chart.dataKeyX} />
           <YAxis />
           <Tooltip />
           <Area
             type="monotone"
-            dataKey={lectureData.chart.dataKeyY}
-            name={lectureData.chart.yName}
+            dataKey={json.chart.dataKeyY}
+            name={json.chart.yName}
             stroke="var(--dark-green)"
             fill="var(--green)"
           />

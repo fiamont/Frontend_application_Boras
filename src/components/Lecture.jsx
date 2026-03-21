@@ -19,7 +19,7 @@ function Lecture({ lectureData }) {
           <p>{lectureData.sections[1]}</p>
         </div>
         <div className="lecture-second-part py-4 col-12 col-md-6">
-          <InteractiveChart data={lectureData} />
+          <InteractiveChart lectureJson={lectureData} />
           <p className="p-4">{lectureData.sections[2]}</p>
         </div>
       </div>
