@@ -35,11 +35,5 @@
 }
 
 .chart-background {
-  background-color: #f3f9ef;
-}
-
-.chart-square {
-  height: 250px;
-  width: 250px;
-  background-color: #5daa29;
+  background-color: var(--light-color);
 }
