@@ -1,4 +1,4 @@
-function SelectMenu({ heading, optionData, selectedYear, setSelectedYear }) {
+function SelectButton({ heading, optionData, selectedYear, setSelectedYear }) {
   let modifiedOptions = optionData;
 
   if (heading === "Slutår") {
@@ -24,4 +24,4 @@ function SelectMenu({ heading, optionData, selectedYear, setSelectedYear }) {
     </div>
   );
 }
-export default SelectMenu;
+export default SelectButton;

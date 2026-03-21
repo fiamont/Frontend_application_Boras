@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import ResponsiveAreaChart from "./ResponsiveAreaChart";
-import SelectMenu from "./SelectMenu";
+import SelectButton from "./SelectButton";
 
 function InteractiveChart({ lectureJson }) {
   const [apiData, setApiData] = useState([]); //tom array
@@ -32,13 +32,13 @@ function InteractiveChart({ lectureJson }) {
         <ResponsiveAreaChart json={lectureJson} chartData={apiData} />
       </div>
       <div className="d-flex gap-3">
-        <SelectMenu
+        <SelectButton
           heading="Startår"
           optionData={apiData}
           selectedYear={startYear}
           setSelectedYear={setStartYear}
         />
-        <SelectMenu
+        <SelectButton
           heading="Slutår"
           optionData={apiData}
           selectedYear={endYear}
