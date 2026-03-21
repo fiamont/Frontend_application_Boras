@@ -1,21 +1,20 @@
-function SelectButton({ heading, optionData, selectedYear, setSelectedYear }) {
-  let modifiedOptions = optionData;
-
-  if (heading === "Slutår") {
-    modifiedOptions = [...optionData].reverse();
-  }
-
+function SelectButton({
+  heading,
+  optionData,
+  selectedIndex,
+  setSelectedIndex,
+}) {
   return (
     <div>
       <label>
         {heading}:
         <select
-          value={selectedYear}
+          value={selectedIndex}
           className="ms-2"
-          onChange={(e) => setSelectedYear(e.target.value)}
+          onChange={(e) => setSelectedIndex(e.target.value)}
         >
-          {modifiedOptions.map((data, index) => (
-            <option key={index} value={data.Year}>
+          {optionData.map((data, index) => (
+            <option key={index} value={index}>
               {data.Year}
             </option>
           ))}
