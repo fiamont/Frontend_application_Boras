@@ -3,9 +3,8 @@ import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import mockUser from "../data/mock-user.json";
 
-function LoginForm() {
+function LoginForm({ mockUser }) {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");

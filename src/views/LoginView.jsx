@@ -1,12 +1,13 @@
 import LoginForm from "../components/LoginForm";
 import Navigation from "../components/Navigation";
+import mockUser from "../data/mock-user.json";
 
 function LoginView() {
   return (
     <div className="d-flex flex-column login-view vh-100">
       <Navigation isLoginPage={true} />
       <div className="d-flex justify-content-center align-items-center vh-100">
-        <LoginForm />
+        <LoginForm mockUser={mockUser} />
       </div>
     </div>
   );
