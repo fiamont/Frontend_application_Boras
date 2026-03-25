@@ -1,16 +1,25 @@
 import { Link } from "react-router-dom";
 import { NavDropdown } from "react-bootstrap";
 
-function MenuPart() {
+function MenuPart(props) {
   return (
     <NavDropdown title="Utveckling" id="basic-nav-dropdown">
-      <NavDropdown.Item as={Link} to="/lektion/koldioxidutslapp">
+      <NavDropdown.Item
+        as={Link}
+        to={props.isLoginPage ? "/" : "/lektion/koldioxidutslapp"}
+      >
         Koldioxidutsläpp
       </NavDropdown.Item>
-      <NavDropdown.Item as={Link} to="/lektion/globalatemperaturer">
+      <NavDropdown.Item
+        as={Link}
+        to={props.isLoginPage ? "/" : "/lektion/globalatemperaturer"}
+      >
         Globala temperaturer
       </NavDropdown.Item>
-      <NavDropdown.Item as={Link} to="/lektion/glaciarstorlekar">
+      <NavDropdown.Item
+        as={Link}
+        to={props.isLoginPage ? "/" : "/lektion/glaciarstorlekar"}
+      >
         Glaciärstorlekar
       </NavDropdown.Item>
     </NavDropdown>

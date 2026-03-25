@@ -16,7 +16,10 @@ function Navigation(props) {
       className={`${props.isLoginPage ? "navigation-login" : "navigation-default"} p-2 d-flex gap-2 align-items-center`}
     >
       <Container fluid>
-        <Link className="navigation-link" to="/start">
+        <Link
+          className="navigation-link"
+          to={props.isLoginPage ? "/" : "/start"}
+        >
           <h1>Klimatinfo</h1>
         </Link>
         <Navbar.Toggle aria-controls="basic-navbar-nav">
@@ -32,9 +35,9 @@ function Navigation(props) {
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="ms-auto gap-4">
-            <Link to="/start">Start</Link>
-            <MenuPart />
-            <Link to="/profil">
+            <Link to={props.isLoginPage ? "/" : "/start"}>Start</Link>
+            <MenuPart isLoginPage={props.isLoginPage} />
+            <Link to={props.isLoginPage ? "/" : "/profil"}>
               {props.isLoginPage ? "Logga in" : "Profil"}
             </Link>
           </Nav>
