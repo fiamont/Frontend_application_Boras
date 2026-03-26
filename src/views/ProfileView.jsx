@@ -2,7 +2,7 @@ import ProfileSummary from "../components/ProfileSummary";
 import UserRanking from "../components/UserRanking";
 import UserLectures from "../components/UserLectures";
 import Logout from "../components/Logout";
-import Navigation from "../components/Navigation";
+import Navigation from "../components/navigation/Navigation";
 
 function ProfileView() {
   return (

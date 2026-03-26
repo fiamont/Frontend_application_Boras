@@ -1,5 +1,5 @@
 import LoginForm from "../components/LoginForm";
-import Navigation from "../components/Navigation";
+import Navigation from "../components/navigation/Navigation";
 import mockUser from "../data/mock-user.json";
 
 function LoginView() {

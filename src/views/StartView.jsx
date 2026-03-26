@@ -1,6 +1,6 @@
 import StartIntro from "../components/StartIntro";
 import ProfileSummary from "../components/ProfileSummary";
-import Navigation from "../components/Navigation";
+import Navigation from "../components/navigation/Navigation";
 
 function StartView() {
   return (
