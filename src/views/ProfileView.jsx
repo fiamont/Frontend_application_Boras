@@ -1,6 +1,6 @@
 import ProfileSummary from "../components/ProfileSummary";
-import UserRanking from "../components/UserRanking";
-import UserLectures from "../components/UserLectures";
+import ProfileRanking from "../components/ProfileRanking";
+import ProfileLectures from "../components/ProfileLectures";
 import Logout from "../components/Logout";
 import Navigation from "../components/navigation/Navigation";
 
@@ -10,8 +10,8 @@ function ProfileView() {
       <Navigation isLoginPage={false} />
       <div className="d-flex flex-column gap-5 m-4">
         <ProfileSummary />
-        <UserRanking />
-        <UserLectures />
+        <ProfileRanking />
+        <ProfileLectures />
         <Logout />
       </div>
     </div>
