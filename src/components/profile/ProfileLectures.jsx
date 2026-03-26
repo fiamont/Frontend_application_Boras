@@ -1,6 +1,6 @@
-import doneCarbon from "../assets/done-carbon-dioxide.png";
-import doneTemperature from "../assets/done-global-temperature.png";
-import beginGlacier from "../assets/begin-glacier.png";
+import doneCarbon from "../../assets/done-carbon-dioxide.png";
+import doneTemperature from "../../assets/done-global-temperature.png";
+import beginGlacier from "../../assets/begin-glacier.png";
 import { Link } from "react-router-dom";
 
 function ProfileLectures() {

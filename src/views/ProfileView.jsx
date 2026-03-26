@@ -1,6 +1,6 @@
-import ProfileSummary from "../components/ProfileSummary";
-import ProfileRanking from "../components/ProfileRanking";
-import ProfileLectures from "../components/ProfileLectures";
+import ProfileSummary from "../components/profile/ProfileSummary";
+import ProfileRanking from "../components/profile/ProfileRanking";
+import ProfileLectures from "../components/profile/ProfileLectures";
 import Logout from "../components/Logout";
 import Navigation from "../components/navigation/Navigation";
 

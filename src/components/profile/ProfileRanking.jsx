@@ -1,5 +1,5 @@
-import orangeCup from "../assets/orange-cup.png";
-import mockUser from "../data/mock-user.json";
+import orangeCup from "../../assets/orange-cup.png";
+import mockUser from "../../data/mock-user.json";
 
 function ProfileRanking() {
   return (

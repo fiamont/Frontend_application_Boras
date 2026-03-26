@@ -1,5 +1,5 @@
 import StartIntro from "../components/StartIntro";
-import ProfileSummary from "../components/ProfileSummary";
+import ProfileSummary from "../components/profile/ProfileSummary";
 import Navigation from "../components/navigation/Navigation";
 
 function StartView() {
