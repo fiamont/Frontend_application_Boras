@@ -1,4 +1,4 @@
-import Navigation from "../components/Navigation";
+import Navigation from "../components/navigation/Navigation";
 import lectureOne from "../data/lecture-one.json";
 import lectureTwo from "../data/lecture-two.json";
 import lectureThree from "../data/lecture-three.json";

@@ -1,6 +1,6 @@
-import "./ProfileSummary.css";
+import "./Profile.css";
 
-function UserInfo({ data }) {
+function ProfileInfo({ data }) {
   return (
     <div className="d-flex flex-column flex-lg-row gap-4 align-items-center">
       <img
@@ -18,4 +18,4 @@ function UserInfo({ data }) {
   );
 }
 
-export default UserInfo;
+export default ProfileInfo;

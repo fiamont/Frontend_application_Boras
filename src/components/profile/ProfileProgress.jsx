@@ -1,7 +1,7 @@
-import "./ProfileSummary.css";
+import "./Profile.css";
 import { ProgressBar } from "react-bootstrap";
 
-function ProgressInfo({ data }) {
+function ProfileProgress({ data }) {
   return (
     <div className="d-flex flex-column gap-3">
       <h2 className="text-center">{`${data.progress} av 3 lektioner genomförda!`}</h2>
@@ -9,4 +9,4 @@ function ProgressInfo({ data }) {
     </div>
   );
 }
-export default ProgressInfo;
+export default ProfileProgress;

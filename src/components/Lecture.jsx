@@ -1,5 +1,5 @@
 import LectureButton from "./LectureButton";
-import InteractiveChart from "./InteractiveChart";
+import InteractiveChart from "./chart/InteractiveChart";
 
 function Lecture({ lectureData }) {
   return (
