@@ -1,5 +1,5 @@
 import mockUser from "../../data/mock-user.json";
-import "./ProfileSummary.css";
+import "./Profile.css";
 import ProfileInfo from "./ProfileInfo";
 import ProfileProgress from "./ProfileProgress";
 

@@ -15,3 +15,7 @@
 .progress-bar {
   background-color: var(--dark-green);
 }
+
+.ranking {
+  background-color: var(--beige-one);
+}

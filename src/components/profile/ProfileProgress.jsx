@@ -1,4 +1,4 @@
-import "./ProfileSummary.css";
+import "./Profile.css";
 import { ProgressBar } from "react-bootstrap";
 
 function ProfileProgress({ data }) {

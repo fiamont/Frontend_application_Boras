@@ -1,4 +1,4 @@
-import "./ProfileSummary.css";
+import "./Profile.css";
 
 function ProfileInfo({ data }) {
   return (
