@@ -4,11 +4,14 @@ This is a React + Vite project developed from a Figma prototype as part of the c
 
 ## About the Project
 
-This project...
+This project represents a learning platform called Klimatinfo, where users are offered three different lectures to explore various climate-related topics. The application is designed as a single page application (SPA) and is structured using views and reusable components to create a dynamic, modular, and maintainable user experience.
 
 ## Features
-
-Features in this project...
+- User login functionality (mock data)
+- Three interactive lectures covering different climate topics
+- Dynamic charts displaying climate data over time, with interactive selection of years displayed
+- Navigation between multiple views (start, lectures, profile)
+- Responsive design using Bootstrap
 
 ## Built With
 
