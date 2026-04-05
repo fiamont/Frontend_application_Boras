@@ -10,7 +10,7 @@ import {
 
 function ResponsiveAreaChart({ json, chartData }) {
   return (
-    <div className="chart-background" style={{ width: "100%", height: 300 }}>
+    <div className="my-chart-container">
       <ResponsiveContainer>
         <AreaChart
           data={chartData}
