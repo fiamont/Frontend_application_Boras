@@ -6,6 +6,7 @@ import LectureView from "./views/LectureView";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import ScrollToTop from "./components/ScrollToTop";
 
+/*Applikationens huvudkomponent som innehåller alla vyer och hanterar navigering mellan dem genom url:er*/
 function App() {
   return (
     <>

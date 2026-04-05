@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { NavDropdown } from "react-bootstrap";
 
+/*Renderar en dropdown-meny med länkar till olika lektioner. Anpassar länkarna beroende på om man är på inloggningssidan eller inte.*/
 function MenuPart(props) {
   return (
     <NavDropdown title="Utveckling" id="basic-nav-dropdown">

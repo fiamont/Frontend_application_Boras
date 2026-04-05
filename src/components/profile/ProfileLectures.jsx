@@ -3,6 +3,7 @@ import doneTemperature from "../../assets/done-global-temperature.png";
 import beginGlacier from "../../assets/begin-glacier.png";
 import { Link } from "react-router-dom";
 
+/*Visar en översikt över användarens lektioner med bilder som indikerar status, den ofärdiga länkar till den lektionsvyn*/
 function ProfileLectures() {
   return (
     <div className="d-flex flex-column-reverse gap-3 flex-lg-row justify-content-between align-items-center">

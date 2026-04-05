@@ -8,6 +8,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
+/* Renderar ett responsivt ytdiagram med data som skickas in via props. Använder json-propen för att bestämma vilka datanycklar (datakey) som ska visas på X- och Y-axeln. */
 function ResponsiveAreaChart({ json, chartData }) {
   return (
     <div className="my-chart-container">
@@ -28,7 +29,7 @@ function ResponsiveAreaChart({ json, chartData }) {
           <Area
             type="monotone"
             dataKey={json.chart.dataKeyY}
-            name={json.chart.yName}
+            name={json.chart.yName} //rubrik på y-axeln som visas när man hovrar
             stroke="var(--dark-green)"
             fill="var(--green)"
           />

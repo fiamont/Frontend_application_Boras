@@ -2,11 +2,12 @@ import { useState, useEffect } from "react";
 import ResponsiveAreaChart from "./ResponsiveAreaChart";
 import SelectButton from "./SelectButton";
 
+/* Hämtar och visar data i ett interaktivt diagram baserat på lectureJson. Användaren kan välja start- och slutintervall som uppdaterar diagrammet dynamiskt. */
 function InteractiveChart({ lectureJson }) {
-  const [apiData, setApiData] = useState([]); //tom array
-  const [startIndex, setStartIndex] = useState(""); //tom variabel
-  const [endIndex, setEndIndex] = useState(""); //tom variabel
-  const [displayedData, setDisplayedData] = useState([]); //tom array
+  const [apiData, setApiData] = useState([]);
+  const [startIndex, setStartIndex] = useState("");
+  const [endIndex, setEndIndex] = useState("");
+  const [displayedData, setDisplayedData] = useState([]);
 
   useEffect(() => {
     async function fetchData() {
@@ -34,7 +35,7 @@ function InteractiveChart({ lectureJson }) {
     }
   }, [apiData]);
 
-  /*Beroende på vilket/vilka år man sen väljer genom select-knapparna så visas det intervallet (med hjälp av slice-metoden) i diagrammet!*/
+  /*Beroende på vilket/vilka år man väljer genom select-knapparna så visas det intervallet (mha slice-metoden) i diagrammet!*/
   useEffect(() => {
     if (apiData.length > 0) {
       setDisplayedData(apiData.slice(Number(startIndex), Number(endIndex) + 1));

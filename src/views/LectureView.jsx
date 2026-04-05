@@ -9,6 +9,7 @@ function LectureView() {
   const params = useParams();
   let lectureData = null;
 
+  //ändrar lektionsinnehåll beroende på url:en
   if (params.id === "koldioxidutslapp") {
     lectureData = lectureOne;
   } else if (params.id === "globalatemperaturer") {
