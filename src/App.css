@@ -30,6 +30,8 @@
   background-color: var(--light-green);
 }
 
-.chart-background {
+.my-chart-container {
   background-color: var(--light-color);
+  width: 100%;
+  height: 300px;
 }
