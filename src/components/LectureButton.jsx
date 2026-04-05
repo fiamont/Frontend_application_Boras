@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 
+/*länkar till profilvyn*/
 function LectureButton() {
   return (
     <Link

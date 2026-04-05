@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-// Får data (props) från parent-komponenten (måsvingar runt "data" --> destrukturering)
+/*Visar titel, bild, introduktion och en länk till en lektion baserat på den data som skickas in via props.*/
 function TeaserLecture({ data }) {
   return (
     <div

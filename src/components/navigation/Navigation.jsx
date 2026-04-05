@@ -6,6 +6,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { RxCross1 } from "react-icons/rx";
 import MenuPart from "./MenuPart";
 
+/*En navigeringsbar (överst på sidan). Visas olika med hjälp av props beroende på om man befinner sig på inloggningssidan eller ej. Använder useState för att expandera och kollapsa en “hamburger”-meny i mobilläge.*/
 function Navigation(props) {
   const [expanded, setExpanded] = useState(false);
   return (
