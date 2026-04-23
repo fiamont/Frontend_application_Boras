@@ -3,6 +3,7 @@ import ProfileSummary from "../components/profile/ProfileSummary";
 import Navigation from "../components/navigation/Navigation";
 import mockUser from "./../data/mock-user.json";
 
+/*Startvyn som visar Navigation, innehåller ProfileSummary och StartIntro. Skickar user som prop till ProfileSummary.*/
 function StartView() {
   return (
     <div>

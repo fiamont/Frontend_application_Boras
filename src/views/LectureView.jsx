@@ -5,11 +5,11 @@ import lectureThree from "../data/lecture-three.json";
 import Lecture from "../components/Lecture";
 import { useParams } from "react-router-dom";
 
+/*En vy som visar en specifik lektion baserat på id från URL:en. Väljer rätt lektionsdata och skickar den till Lecture, och visar Navigation.*/
 function LectureView() {
   const params = useParams();
   let lectureData = null;
 
-  //ändrar lektionsinnehåll beroende på url:en
   if (params.id === "koldioxidutslapp") {
     lectureData = lectureOne;
   } else if (params.id === "globalatemperaturer") {

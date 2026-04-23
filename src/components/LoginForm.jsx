@@ -16,10 +16,10 @@ function LoginForm({ mockUser }) {
   }
 
   function onChangePassword(event) {
-    setPassword(event.target.value); //uppdaterar password med det användaren skrivit
+    setPassword(event.target.value); //uppdaterar lösenordet med det användaren skrivit
   }
 
-  //när användaren klickar på logga in (när formuläret skickas)
+  //vad som händer när användaren klickar på logga in (när formuläret skickas)
   function handleLoginResult(event) {
     event.preventDefault(); //gör så det inte försvinner på en gång (laddas om)
     if (username === mockUser.username && password === mockUser.password) {
